@@ -19,7 +19,7 @@ from discord.ext.commands.core import command
 from discord.flags import Intents
 from discord.raw_models import RawBulkMessageDeleteEvent
 
-TOKEN = "ODM5NTQxNjMwNTk1MjM1ODYx.YJLKEg.HgDZIKPKq_CJr47I8OPSr9316cA"
+TOKEN = "token"
 
 client = commands.Bot(command_prefix= "*", intents=discord.Intents.all())
 
